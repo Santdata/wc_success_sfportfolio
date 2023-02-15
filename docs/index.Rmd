@@ -263,8 +263,6 @@ wc_all_labeled_wide_sum <- aggregate(wc_all_labeled.1[,2:9],
 ## **Summary**
 
 
- * **Context {el verdadero, para cuando saint_analytics este andando.}**
-    * saint_sports is a segment from saint_analytics that shares data analysis on many aspects of sports, with an emphasis on football (**the only “football” there is ;)**)
  * **Context**
     * This project belongs to **Santiago Florimontes' portfolio**, and is part of **saint_analytics**, a business idea in the making.
  * **What you'll find**
