@@ -10,10 +10,8 @@ output:
     toc_float:
       smooth_scroll: yes
       collapsed: yes
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
 ---
+
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
   echo = FALSE, warning=FALSE)
@@ -264,7 +262,7 @@ wc_all_labeled_wide_sum <- aggregate(wc_all_labeled.1[,2:9],
 
 
  * **Context**
-    * This project belongs to **Santiago Florimontes' portfolio**, and is part of **saint_analytics**, a business idea in the making.
+    * This project belongs to **Santiago Florimonte's portfolio**, and is part of **saint_analytics**, a business idea in the making.
  * **What you'll find**
     * A success index for the most popular sports competition of all: The FIFA world cup
     * Facts and visuals around the index
