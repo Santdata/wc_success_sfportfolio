@@ -523,7 +523,8 @@ plot_geo(wc_map_wcs_i, locationmode = 'code', locations = ~ISO_codes) %>%
 <div style= "float:right ;position:relative; top: 5px;">
 ```{r clorophert table}
 
-reactable(wc_map %>% select(., wc_countries, continent, sum_s_points), 
+reactable(wc_map %>% select(., wc_countries, continent, sum_s_points) %>% 
+            filter(., !wc_countries == "United Kingdom"), 
           pagination = F, height = 255, width = 480, filterable = TRUE,
           outlined = TRUE, striped = TRUE,
           columns = list(
